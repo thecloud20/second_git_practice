@@ -22,4 +22,4 @@ jobs:
 
       - name: Upload File to S3
         run: |
-          aws s3 cp data/sample.csv s3://second-git/data
+          aws s3 cp data/sample.csv s3://second-git/data/
